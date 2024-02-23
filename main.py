@@ -23,8 +23,6 @@ def detect_key_word(transcript):
 
 
 def main():
-    # _KEY = "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"
-
     with open("config.json", "r") as config:
         _KEY = json.load(config)["GPT_KEY"]
 
