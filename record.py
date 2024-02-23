@@ -1,7 +1,6 @@
 import pyaudio
 import wave
 import sys
-import numpy as num
 import audioop
 from math import log10
 
